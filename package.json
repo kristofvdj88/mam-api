@@ -1,0 +1,29 @@
+{
+  "name": "smart-home-api",
+  "version": "0.0.1",
+  "description": "A central service that subscribes to IOTA MAM channel data, to use it somehow inside our smart home solution",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "smart-home-api"
+  },
+  "keywords": [
+    "mam",
+    "smart",
+    "home",
+    "iota",
+    "telegram",
+    "bot",
+    "api"
+  ],
+  "author": "Kristof Van der Jonckheyd",
+  "license": "MIT",
+  "dependencies": {
+    "iota.lib.js": "^0.5.1",
+    "moment": "^2.22.2",
+    "request": "^2.88.0"
+  }
+}
