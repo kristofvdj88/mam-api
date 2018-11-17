@@ -32,6 +32,7 @@ if (config.CHANNELMODE == 'restricted') {
     mamState = Mam.changeMode(mamState, config.CHANNELMODE);
 }
 
+
 const api = new API(key, root);
 
 api.startListening();
